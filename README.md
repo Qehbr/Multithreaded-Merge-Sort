@@ -1,2 +1,2 @@
 # Multithreaded-Merge-Sort
-Multithreaded merge sort
+Multi-threaded merge sort firstly given number of elements in array and minimum elements each thread can get; calculates how many cells each thread will get. Then, each thread performs merge sort on it’s given cells. After that we have many arrays, we should merge to get one sorted array. We will create thread for each merging, so our program will calculate fast each “level” of merging
